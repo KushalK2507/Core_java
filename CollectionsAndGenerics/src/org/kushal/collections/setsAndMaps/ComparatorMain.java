@@ -40,6 +40,7 @@ class DataComparator<K, V> {
 
 public class ComparatorMain {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
 		// This will work fine
