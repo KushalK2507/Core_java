@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class HelloAndDataTypes {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		System.out.println("Welcome to the World of JAVA");
 
 		int value = 1; // declare variable
 		System.out.println(value); // output 1
