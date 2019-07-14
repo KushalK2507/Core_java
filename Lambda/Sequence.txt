@@ -1,0 +1,7 @@
+LambdaMain
+LambdaComparatorImplementation
+LambdaWithInterfaceVoid
+LambdaWithInterfaceReturn
+LambdaWithVariableAndIterations
+LambdaIterateWithCustomObject
+LambdaPredicate
