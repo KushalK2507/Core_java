@@ -51,7 +51,6 @@ public class EnumMain {
 		System.out.println();
 		for (Enum course : Enum.values()) {
 			System.out.println(course);
-
 		}
 		System.out.println("***************");
 		// If we want to assign the value to enum then we have to use the constructor as
