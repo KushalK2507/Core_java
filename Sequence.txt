@@ -1,3 +1,6 @@
 BasicConceptsOfJava
 ObjectOrientedConcepts
 CollectionAndGenerics
+MultiThreading
+FileHandling
+Lambda
