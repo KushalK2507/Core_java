@@ -5,6 +5,11 @@ interface Lambda {
 	public void demo();
 }
 
+interface LambdaArgument {
+	public void demo(int a, int b);
+}
+
+
 public class LambdaMain {
 
 	public static void main(String args[]) {
@@ -21,6 +26,11 @@ public class LambdaMain {
 			System.out.println("Statement 2");
 		};
 		lambda1.demo();
+		
+		// Below Lambda Expression for the method which has arguments.
+		// It is not needed to declare the type of arguments
+		LambdaArgument argument = ( a, b) -> System.out.println(a+b);
+		argument.demo(4, 5);
 
 		// We can use lambda expression only for FUNCTIONAL TYPE INTERFACES only.
 		// FUNCTIONAL TYPE INTERFACES is the interface there is EXACTLY 1 ABSTRACT
